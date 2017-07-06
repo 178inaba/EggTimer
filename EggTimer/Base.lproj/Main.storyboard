@@ -688,32 +688,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="346" height="471"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DDR-d8-o3c">
-                                <rect key="frame" x="7" y="71" width="201" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DDR-d8-o3c">
+                                <rect key="frame" x="0.0" y="0.0" width="346" height="60"/>
                                 <subviews>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OXl-Uf-189">
-                                        <rect key="frame" x="0.0" y="-1" width="67" height="35"/>
+                                        <rect key="frame" x="0.0" y="-1" width="115.5" height="62"/>
                                         <buttonCell key="cell" type="smallSquare" title="Start" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="TJw-fF-ylb">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system" size="24"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Dam-B4-Yzi">
-                                        <rect key="frame" x="67" y="-1" width="67" height="35"/>
-                                        <buttonCell key="cell" type="smallSquare" title="Stop" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CfB-07-XwS">
+                                        <rect key="frame" x="115.5" y="-1" width="115" height="62"/>
+                                        <buttonCell key="cell" type="smallSquare" title="Stop" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" enabled="NO" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="CfB-07-XwS">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system" size="24"/>
                                         </buttonCell>
                                     </button>
                                     <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="GB8-y4-xRQ">
-                                        <rect key="frame" x="134" y="-1" width="67" height="35"/>
-                                        <buttonCell key="cell" type="smallSquare" title="Reset" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7ua-yg-DzK">
+                                        <rect key="frame" x="230.5" y="-1" width="115.5" height="62"/>
+                                        <buttonCell key="cell" type="smallSquare" title="Reset" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" enabled="NO" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7ua-yg-DzK">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system" size="24"/>
                                         </buttonCell>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="GB8-y4-xRQ" firstAttribute="height" secondItem="DDR-d8-o3c" secondAttribute="height" id="6nP-ok-4sK"/>
+                                    <constraint firstItem="OXl-Uf-189" firstAttribute="height" secondItem="DDR-d8-o3c" secondAttribute="height" id="DrL-FV-6ah"/>
+                                    <constraint firstAttribute="height" constant="60" id="PZ7-bA-oeh"/>
+                                    <constraint firstItem="Dam-B4-Yzi" firstAttribute="height" secondItem="DDR-d8-o3c" secondAttribute="height" id="YSr-oD-X1H"/>
+                                </constraints>
                                 <visibilityPriorities>
                                     <integer value="1000"/>
                                     <integer value="1000"/>
@@ -726,6 +731,11 @@
                                 </customSpacing>
                             </stackView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="DDR-d8-o3c" secondAttribute="bottom" id="dtc-PE-igf"/>
+                            <constraint firstItem="DDR-d8-o3c" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="tKr-vb-DsH"/>
+                            <constraint firstAttribute="trailing" secondItem="DDR-d8-o3c" secondAttribute="trailing" id="zTl-1D-LOd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
