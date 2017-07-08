@@ -730,9 +730,42 @@
                                     <real value="3.4028234663852886e+38"/>
                                 </customSpacing>
                             </stackView>
+                            <stackView distribution="fill" orientation="vertical" alignment="centerX" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0U8-a9-2oA">
+                                <rect key="frame" x="20" y="80" width="306" height="371"/>
+                                <subviews>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pev-1i-Spl">
+                                        <rect key="frame" x="51.5" y="254" width="203" height="117"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="6:00" id="47Z-0e-8g6">
+                                            <font key="font" size="100" name="HelveticaNeue"/>
+                                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A8X-2d-STP">
+                                        <rect key="frame" x="20" y="0.0" width="266" height="246"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="stopped" id="reA-wb-1Wl"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="A8X-2d-STP" secondAttribute="trailing" constant="20" symbolic="YES" id="dIS-tD-9q7"/>
+                                    <constraint firstItem="A8X-2d-STP" firstAttribute="leading" secondItem="0U8-a9-2oA" secondAttribute="leading" constant="20" symbolic="YES" id="pH1-EL-Ruf"/>
+                                </constraints>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="DDR-d8-o3c" firstAttribute="top" secondItem="0U8-a9-2oA" secondAttribute="bottom" constant="20" id="39K-Xe-bqY"/>
+                            <constraint firstAttribute="trailing" secondItem="0U8-a9-2oA" secondAttribute="trailing" constant="20" id="LSn-AQ-B3E"/>
+                            <constraint firstItem="0U8-a9-2oA" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="cJv-Ub-xgL"/>
                             <constraint firstAttribute="bottom" secondItem="DDR-d8-o3c" secondAttribute="bottom" id="dtc-PE-igf"/>
+                            <constraint firstItem="0U8-a9-2oA" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="20" id="ru8-Au-51D"/>
                             <constraint firstItem="DDR-d8-o3c" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="tKr-vb-DsH"/>
                             <constraint firstAttribute="trailing" secondItem="DDR-d8-o3c" secondAttribute="trailing" id="zTl-1D-LOd"/>
                         </constraints>
@@ -743,4 +776,7 @@
             <point key="canvasLocation" x="75" y="654.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="stopped" width="128" height="128"/>
+    </resources>
 </document>
