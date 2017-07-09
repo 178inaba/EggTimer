@@ -156,37 +156,6 @@
             </objects>
             <point key="canvasLocation" x="74" y="550"/>
         </scene>
-        <!--Window Controller-->
-        <scene sceneID="9xx-dh-rio">
-            <objects>
-                <windowController id="QQb-g0-TPf" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="a63-PQ-rwT">
-                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
-                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
-                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
-                    </window>
-                    <connections>
-                        <segue destination="Ju9-xZ-X51" kind="relationship" relationship="window.shadowedContentViewController" id="UVn-R9-aJR"/>
-                    </connections>
-                </windowController>
-                <customObject id="L46-pK-AOK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="540" y="550"/>
-        </scene>
-        <!--Prefs View Controller-->
-        <scene sceneID="Mcj-vg-Ogd">
-            <objects>
-                <viewController id="Ju9-xZ-X51" customClass="PrefsViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="xHd-GS-4KF">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </view>
-                </viewController>
-                <customObject id="pwL-Ox-ZXj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="540" y="1230"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
@@ -297,6 +266,37 @@
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="74" y="1230"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="9xx-dh-rio">
+            <objects>
+                <windowController id="QQb-g0-TPf" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="a63-PQ-rwT">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+                    </window>
+                    <connections>
+                        <segue destination="Ju9-xZ-X51" kind="relationship" relationship="window.shadowedContentViewController" id="UVn-R9-aJR"/>
+                    </connections>
+                </windowController>
+                <customObject id="L46-pK-AOK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="550"/>
+        </scene>
+        <!--Prefs View Controller-->
+        <scene sceneID="Mcj-vg-Ogd">
+            <objects>
+                <viewController id="Ju9-xZ-X51" customClass="PrefsViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="xHd-GS-4KF">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="pwL-Ox-ZXj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540" y="1230"/>
         </scene>
     </scenes>
     <resources>
