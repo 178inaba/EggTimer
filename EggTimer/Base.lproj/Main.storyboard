@@ -325,6 +325,9 @@
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
+                                <connections>
+                                    <action selector="popupValueChanged:" target="Ju9-xZ-X51" id="dHu-1v-Uad"/>
+                                </connections>
                             </popUpButton>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhT-dM-OyV">
                                 <rect key="frame" x="18" y="98" width="133" height="17"/>
@@ -354,6 +357,9 @@
 Gw
 </string>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="cancelButtonClicked:" target="Ju9-xZ-X51" id="0me-2h-eL2"/>
+                                </connections>
                             </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBj-hm-3hV">
                                 <rect key="frame" x="343" y="13" width="59" height="32"/>
@@ -365,14 +371,25 @@ Gw
 DQ
 </string>
                                 </buttonCell>
+                                <connections>
+                                    <action selector="okButtonClicked:" target="Ju9-xZ-X51" id="bJn-Z6-6dx"/>
+                                </connections>
                             </button>
                             <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-5P-rLq">
                                 <rect key="frame" x="18" y="66" width="380" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <sliderCell key="cell" enabled="NO" state="on" alignment="left" minValue="1" maxValue="25" doubleValue="6" tickMarkPosition="above" numberOfTickMarks="25" allowsTickMarkValuesOnly="YES" sliderType="linear" id="wjO-DW-DHw"/>
+                                <connections>
+                                    <action selector="sliderValueChanged:" target="Ju9-xZ-X51" id="Zaq-Cb-pkn"/>
+                                </connections>
                             </slider>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="customSlider" destination="nWG-5P-rLq" id="cbS-AD-DM3"/>
+                        <outlet property="customTextField" destination="ddw-I0-9ba" id="HKK-Um-NFZ"/>
+                        <outlet property="presetsPopup" destination="oYb-Zq-vuz" id="diR-uP-GpQ"/>
+                    </connections>
                 </viewController>
                 <customObject id="pwL-Ox-ZXj" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
