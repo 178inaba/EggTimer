@@ -322,14 +322,24 @@
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYb-Zq-vuz">
                                 <rect key="frame" x="18" y="145" width="381" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Ata-vl-gpc" id="KUZ-wf-swb">
+                                <popUpButtonCell key="cell" type="push" title="For runny soft-boiled eggs (barely set whites): 3 minutes" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Ata-vl-gpc" id="KUZ-wf-swb">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="4g0-bu-tdW">
                                         <items>
-                                            <menuItem title="Item 1" state="on" id="Ata-vl-gpc"/>
-                                            <menuItem title="Item 2" id="cj5-KW-3Ob"/>
-                                            <menuItem title="Item 3" id="gYn-G2-Zzm"/>
+                                            <menuItem title="For runny soft-boiled eggs (barely set whites): 3 minutes" state="on" id="Ata-vl-gpc"/>
+                                            <menuItem title="For slightly soft-boiled eggs: 4 minutes" id="cj5-KW-3Ob"/>
+                                            <menuItem title="For custardy yet firm soft-boiled eggs: 6 minutes" id="gYn-G2-Zzm"/>
+                                            <menuItem title="For firm yet still creamy hard-boiled eggs: 10 minutes" id="tSZ-fs-qv8">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="For very firm hard-boiled eggs: 15 minutes" id="IMs-hb-OGf">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem isSeparatorItem="YES" id="T6v-BU-QtG"/>
+                                            <menuItem title="Custom" id="xbW-La-kxT">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
                                         </items>
                                     </menu>
                                 </popUpButtonCell>
