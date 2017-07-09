@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="540" y="550"/>
         </scene>
-        <!--View Controller-->
+        <!--Prefs View Controller-->
         <scene sceneID="Mcj-vg-Ogd">
             <objects>
-                <viewController id="Ju9-xZ-X51" sceneMemberID="viewController">
+                <viewController id="Ju9-xZ-X51" customClass="PrefsViewController" customModule="EggTimer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="xHd-GS-4KF">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
