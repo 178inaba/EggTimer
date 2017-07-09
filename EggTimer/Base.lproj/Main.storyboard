@@ -57,19 +57,13 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Item" id="GNd-gg-mNJ">
+                            <menuItem title="Timer" id="GNd-gg-mNJ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" id="5of-Qw-6pr">
+                                <menu key="submenu" title="Timer" id="5of-Qw-6pr">
                                     <items>
-                                        <menuItem title="Item 1" id="SD2-ic-SIk">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                        </menuItem>
-                                        <menuItem title="Item 2" id="yPR-Dn-2Xi">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                        </menuItem>
-                                        <menuItem title="Item 3" id="dKs-da-cJh">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                        </menuItem>
+                                        <menuItem title="Start" keyEquivalent="s" id="SD2-ic-SIk"/>
+                                        <menuItem title="Stop" keyEquivalent="x" id="yPR-Dn-2Xi"/>
+                                        <menuItem title="Reset" keyEquivalent="r" id="dKs-da-cJh"/>
                                     </items>
                                 </menu>
                             </menuItem>
