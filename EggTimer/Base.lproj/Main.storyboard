@@ -59,11 +59,23 @@
                             </menuItem>
                             <menuItem title="Timer" id="GNd-gg-mNJ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Timer" id="5of-Qw-6pr">
+                                <menu key="submenu" title="Timer" autoenablesItems="NO" id="5of-Qw-6pr">
                                     <items>
-                                        <menuItem title="Start" keyEquivalent="s" id="SD2-ic-SIk"/>
-                                        <menuItem title="Stop" keyEquivalent="x" id="yPR-Dn-2Xi"/>
-                                        <menuItem title="Reset" keyEquivalent="r" id="dKs-da-cJh"/>
+                                        <menuItem title="Start" keyEquivalent="s" id="SD2-ic-SIk">
+                                            <connections>
+                                                <action selector="startTimerMenuItemSelected:" target="Ady-hI-5gd" id="LUG-vk-uSp"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Stop" keyEquivalent="x" id="yPR-Dn-2Xi">
+                                            <connections>
+                                                <action selector="stopTimerMenuItemSelected:" target="Ady-hI-5gd" id="HFN-It-gAM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Reset" keyEquivalent="r" id="dKs-da-cJh">
+                                            <connections>
+                                                <action selector="resetTimerMenuItemSelected:" target="Ady-hI-5gd" id="EEm-5m-BlX"/>
+                                            </connections>
+                                        </menuItem>
                                     </items>
                                 </menu>
                             </menuItem>
@@ -110,7 +122,13 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="EggTimer" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="EggTimer" customModuleProvider="target">
+                    <connections>
+                        <outlet property="resetTimerMenuItem" destination="dKs-da-cJh" id="rCH-UR-Wwa"/>
+                        <outlet property="startTimerMenuItem" destination="SD2-ic-SIk" id="B1p-LY-iX6"/>
+                        <outlet property="stopTimerMenuItem" destination="yPR-Dn-2Xi" id="gm2-jp-qft"/>
+                    </connections>
+                </customObject>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
