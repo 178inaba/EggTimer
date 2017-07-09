@@ -770,6 +770,13 @@
                             <constraint firstAttribute="trailing" secondItem="DDR-d8-o3c" secondAttribute="trailing" id="zTl-1D-LOd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="eggImageView" destination="A8X-2d-STP" id="lNo-dS-zA5"/>
+                        <outlet property="resetButton" destination="GB8-y4-xRQ" id="y4h-a7-g9R"/>
+                        <outlet property="startButton" destination="OXl-Uf-189" id="36T-4B-Dir"/>
+                        <outlet property="stopButton" destination="Dam-B4-Yzi" id="SRy-Qq-Oya"/>
+                        <outlet property="timeLeftField" destination="Pev-1i-Spl" id="Dlo-Wu-HxJ"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
