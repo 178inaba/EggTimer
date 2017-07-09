@@ -304,18 +304,18 @@
                             <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oYb-Zq-vuz">
                                 <rect key="frame" x="18" y="145" width="381" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="For runny soft-boiled eggs (barely set whites): 3 minutes" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Ata-vl-gpc" id="KUZ-wf-swb">
+                                <popUpButtonCell key="cell" type="push" title="For custardy yet firm soft-boiled eggs: 6 minutes" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="6" imageScaling="proportionallyDown" inset="2" selectedItem="gYn-G2-Zzm" id="KUZ-wf-swb">
                                     <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="menu"/>
                                     <menu key="menu" id="4g0-bu-tdW">
                                         <items>
-                                            <menuItem title="For runny soft-boiled eggs (barely set whites): 3 minutes" state="on" id="Ata-vl-gpc"/>
-                                            <menuItem title="For slightly soft-boiled eggs: 4 minutes" id="cj5-KW-3Ob"/>
-                                            <menuItem title="For custardy yet firm soft-boiled eggs: 6 minutes" id="gYn-G2-Zzm"/>
-                                            <menuItem title="For firm yet still creamy hard-boiled eggs: 10 minutes" id="tSZ-fs-qv8">
+                                            <menuItem title="For runny soft-boiled eggs (barely set whites): 3 minutes" tag="3" id="Ata-vl-gpc"/>
+                                            <menuItem title="For slightly soft-boiled eggs: 4 minutes" tag="4" id="cj5-KW-3Ob"/>
+                                            <menuItem title="For custardy yet firm soft-boiled eggs: 6 minutes" state="on" tag="6" id="gYn-G2-Zzm"/>
+                                            <menuItem title="For firm yet still creamy hard-boiled eggs: 10 minutes" tag="10" id="tSZ-fs-qv8">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                             </menuItem>
-                                            <menuItem title="For very firm hard-boiled eggs: 15 minutes" id="IMs-hb-OGf">
+                                            <menuItem title="For very firm hard-boiled eggs: 15 minutes" tag="15" id="IMs-hb-OGf">
                                                 <modifierMask key="keyEquivalentModifierMask"/>
                                             </menuItem>
                                             <menuItem isSeparatorItem="YES" id="T6v-BU-QtG"/>
@@ -344,11 +344,6 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-5P-rLq">
-                                <rect key="frame" x="18" y="73" width="380" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <sliderCell key="cell" state="on" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="above" sliderType="linear" id="wjO-DW-DHw"/>
-                            </slider>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y7j-2E-s6d">
                                 <rect key="frame" x="14" y="13" width="82" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -371,6 +366,11 @@ DQ
 </string>
                                 </buttonCell>
                             </button>
+                            <slider verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nWG-5P-rLq">
+                                <rect key="frame" x="18" y="66" width="380" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" enabled="NO" state="on" alignment="left" minValue="1" maxValue="25" doubleValue="6" tickMarkPosition="above" numberOfTickMarks="25" allowsTickMarkValuesOnly="YES" sliderType="linear" id="wjO-DW-DHw"/>
+                            </slider>
                         </subviews>
                     </view>
                 </viewController>
