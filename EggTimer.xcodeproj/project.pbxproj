@@ -75,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07A349B71F13E4940010B4F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D44C3B1F13E1520012C127 /* EggTimer.entitlements */,
+				AC9E4B911F0E22C0002450A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = EggTimer;
+			sourceTree = "<group>";
+		};
 		07D44C3D1F13E2290012C127 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 				AC9E4B871F0E22C0002450A6 /* EggTimer */,
 				AC9E4B991F0E22C0002450A6 /* EggTimerTests */,
 				AC9E4BA41F0E22C0002450A6 /* EggTimerUITests */,
+				07A349B71F13E4940010B4F5 /* Supporting Files */,
 				AC9E4B861F0E22C0002450A6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,13 +125,11 @@
 		AC9E4B871F0E22C0002450A6 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
-				07D44C3E1F13E2C80012C127 /* Model */,
-				07D44C3B1F13E1520012C127 /* EggTimer.entitlements */,
 				AC9E4B881F0E22C0002450A6 /* AppDelegate.swift */,
 				07D44C3D1F13E2290012C127 /* View Controllers */,
+				07D44C3E1F13E2C80012C127 /* Model */,
 				AC9E4B8C1F0E22C0002450A6 /* Assets.xcassets */,
 				AC9E4B8E1F0E22C0002450A6 /* Main.storyboard */,
-				AC9E4B911F0E22C0002450A6 /* Info.plist */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
