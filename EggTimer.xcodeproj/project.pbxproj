@@ -35,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		078B8B551F127AEA00CFB157 /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		07D44C3B1F13E1520012C127 /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
 		AC9E4B851F0E22C0002450A6 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9E4B881F0E22C0002450A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9E4B8A1F0E22C0002450A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		AC9E4B871F0E22C0002450A6 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				07D44C3B1F13E1520012C127 /* EggTimer.entitlements */,
 				AC9E4B881F0E22C0002450A6 /* AppDelegate.swift */,
 				AC9E4B8A1F0E22C0002450A6 /* ViewController.swift */,
 				078B8B551F127AEA00CFB157 /* PrefsViewController.swift */,
@@ -194,6 +196,11 @@
 					AC9E4B841F0E22C0002450A6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					AC9E4B951F0E22C0002450A6 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -403,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -416,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = EggTimer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
