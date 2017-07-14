@@ -10,6 +10,7 @@
 		073A78D91F1684E900598D27 /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073A78D81F1684E900598D27 /* EggTimer.swift */; };
 		075269231F17CBE5003C9055 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075269221F17CBE5003C9055 /* Preferences.swift */; };
 		078B8B561F127AEA00CFB157 /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B8B551F127AEA00CFB157 /* PrefsViewController.swift */; };
+		07C643731F1935DC00388582 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 07C643721F1935DC00388582 /* ding.mp3 */; };
 		AC9E4B891F0E22C0002450A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E4B881F0E22C0002450A6 /* AppDelegate.swift */; };
 		AC9E4B8B1F0E22C0002450A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E4B8A1F0E22C0002450A6 /* ViewController.swift */; };
 		AC9E4B8D1F0E22C0002450A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9E4B8C1F0E22C0002450A6 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		073A78D81F1684E900598D27 /* EggTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 		075269221F17CBE5003C9055 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		078B8B551F127AEA00CFB157 /* PrefsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		07C643721F1935DC00388582 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		07D44C3B1F13E1520012C127 /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
 		AC9E4B851F0E22C0002450A6 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9E4B881F0E22C0002450A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				07D44C3E1F13E2C80012C127 /* Model */,
 				AC9E4B8C1F0E22C0002450A6 /* Assets.xcassets */,
 				AC9E4B8E1F0E22C0002450A6 /* Main.storyboard */,
+				07C643721F1935DC00388582 /* ding.mp3 */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				AC9E4B8D1F0E22C0002450A6 /* Assets.xcassets in Resources */,
 				AC9E4B901F0E22C0002450A6 /* Main.storyboard in Resources */,
+				07C643731F1935DC00388582 /* ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
